@@ -1,6 +1,8 @@
 package ifsuldeminas.telefonia.model.entity.comercial;
 
-public class CelularPrePago {
+import java.util.Date;
+
+public class CelularPrePago extends Celular {
     private double saldo;
     private Date dataDeValidade;
 }
